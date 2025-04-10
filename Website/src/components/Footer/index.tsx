@@ -28,15 +28,17 @@ const Footer = () => {
                     +47 123 45 678
                 </a>
                 <a href="mailto:kontakt@tandanlaget.no" className="hover:underline">
-                    kontakt@tandanlaget.no
+                    Tandanlaget@gmail.com
                 </a>
                 </div>
             </div>
 
             {/* Bottom Center */}
-            <div className="mt-10 text-center text-white/50 text-lg">
-                2025 © Berglund Web & Design
-            </div>
+            <a href="https://www.berglundweb.no" target="_blank" rel="noopener noreferrer">
+                <div className="mt-10 text-center text-white/50 text-lg">
+                    2025 © Berglund Web & Design
+                </div>
+            </a>
             </div>
       </footer>
     );

@@ -1,12 +1,12 @@
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 const slides = [
-  "It's important to maintain your smile — confidence starts here.",
-  "Regular checkups prevent long-term issues.",
-  "A healthy mouth = a healthy life.",
-  "Join us — take part in making health fun!",
+  "Det är viktigt att behålla ditt leende – självförtroendet börjar där.",
+  "Regelbundna kontroller förebygger långsiktiga problem.",
+  "En frisk mun = ett friskt liv.",
+  "Häng med – gör hälsa roligt tillsammans med oss!",
 ];
 
 const AutoCarousel = () => {

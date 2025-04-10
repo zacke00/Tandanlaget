@@ -13,11 +13,13 @@ const Contact = () => {
 
         <div className="absolute right-4 top-4/6 -translate-y-1/2">
           <PersonCard
-            name="Dr. John Doe"
-            title="Tannlege / Klinikkleder"
-            email="john.doe@tandanlaget.no"
+            name="Tandanlaget"
+            adress="Jönköpingsvägen 37,
+            523 36 Ulricehamn"
+            email="Tandanlaget@gmail.com"
+            number="0321-132 50"
             image="/Tandanlaget_Maps.png"
-            border={"40"}
+            border={"20"}
           />
         </div>
       </div>
@@ -31,11 +33,13 @@ const Contact = () => {
         />
 
         {/* Overlapping PersonCard */}
-        <div className="-mt-1 z-10">
-          <PersonCard
-            name="Dr. John Doe"
-            title="Tannlege / Klinikkleder"
-            email="john.doe@tandanlaget.no"
+        <div className="-mt-1 z-2">
+        <PersonCard
+            name="Tandanlaget"
+            adress="Jönköpingsvägen 37,
+            523 36 Ulricehamn"
+            email="Tandanlaget@gmail.com"
+            number="0321-132 50"
             image="/Tandanlaget_Maps.png"
             border={"10"}
           />
