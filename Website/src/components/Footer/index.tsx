@@ -13,7 +13,7 @@ const Footer = () => {
                 {/* Left side */}
                 <div className="mb-6 md:mb-0">
                 <h3 className="k2d-bold text-4xl">Tandanlaget</h3>
-                <p className="text-white/60 text-1xl">Org. nr 123 456 789</p>
+                <p className="text-white/60 text-1xl">Org. nr 5563185056</p>
                 </div>
 
                 {/* Right side - vertical and centered */}
@@ -24,8 +24,8 @@ const Footer = () => {
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
                     Facebook
                 </a>
-                <a href="tel:+4712345678" className="hover:underline">
-                    +47 123 45 678
+                <a href="tel:+46 321 132 50" className="hover:underline">
+                    +46 321 132 50
                 </a>
                 <a href="mailto:kontakt@tandanlaget.no" className="hover:underline">
                     Tandanlaget@gmail.com
