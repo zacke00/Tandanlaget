@@ -5,7 +5,6 @@ import {
     MessageSquare,
     AlertTriangle,
     Heart,
-    Smile,
     ClipboardCheck,
     Sparkles,
     Calendar,
@@ -40,11 +39,6 @@ import {
       title: "Smärtfri behandling",
       text: "Med moderna metoder ser vi till att din behandling blir så smärtfri som möjligt.",
       icon: Heart,
-    },
-    {
-      title: "Barnvänlig klinik",
-      text: "Vi skapar en trygg och vänlig miljö för våra yngsta patienter.",
-      icon: Smile,
     },
     {
       title: "Förebyggande vård",
