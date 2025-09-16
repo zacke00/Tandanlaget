@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Button_One from "../Buttons/Button_One";
 import { PhoneIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
+
 const navItems = [
   { name: "Hem", path: "/" },
   { name: "Information", path: "/info" },
@@ -18,7 +19,8 @@ const Header = () => {
   return (
     <header className="fixed z-50 w-full bg-[#fff] text-black shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <h1 className="text-5xl text-black/65 font-bold tracking-tight">Tandanlaget</h1>
+        {/* Logo */}
+        <div className="bg-[url(/Tandanlaget.svg)] bg-no-repeat bg-center bg-fit w-62 h-14"></div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-4">

@@ -11,6 +11,7 @@ import {
   } from "lucide-react";
   const infoItems = [
     {
+      
       title: "Trygg behandling",
       text: "Vi fokuserar på patientens komfort och trygghet genom hela processen.",
       icon: ShieldCheck,
